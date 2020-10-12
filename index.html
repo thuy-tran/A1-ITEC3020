@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head lang="en">
-
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class=a-page>
@@ -34,18 +36,50 @@
             </div>
             <div class=pageContent>
                 <div class=product-img-container>
-                    <img src="images/Mask+Collection+2.jpg">
+                    <img src="images/Mask+Collection+2.jpg" alt="Display Error">
                 </div>
                 <div class=product-info-container>
-                    <div class=product-descriptor></div>
-                    <div class=product-add-to-bag>
-                        <div class=product-qty-drop-down></div>
-                        <div class=product-add-to-bag-button></div>
+                    <div class=product-name>
+                        <h3>Face Masks</h3>
+                        <h4>$16.99 CAD</h4>
+                        <h5>Details & Materials</h5>
+                    <div class=product-descriptor>
+                        <p>Made from 100% cotton</p>
+                        <p>Comfortable elastic ear loops with a slot for filters</p>
+                        <p>Non-medical mask & washable</p>
+                        <p>Pack of 6</p>
+                        
+                    </div>
+                    </div>
+                    <div class=product-atb-container>
+                        <div class=quantity-selection>
+                            <label>Qty</label>
+                            <select name="quantity" autocomplete="off" id="quantity" class=quantity-selection-dropdown>
+                                <option value="1"> 1</option>
+                                <option value="2"> 2</option>
+                                <option value="3"> 3</option>
+                                <option value="4"> 4</option>
+                                <option value="5"> 5</option>
+                            </select>
+                        </div>
+                        <button class="atb-button" data-state="initial" type="button">
+                            <span> Add to bag </span>
+                            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class=footer></div>
+            <div class="product-review">
+                <h5>Reviews and Rating</h5>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <div class=footer>
+                <p>&#169; 2020 Shehnaz I. and Thuy T. </p>
+            </div>
         </div>
     </body>
-
 </html>
