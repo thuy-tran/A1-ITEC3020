@@ -314,17 +314,14 @@ select{
     padding:5px;
 }
 
-.footer-wrapper{
-    background-color:#253746;
+.footer{
+    display: flex;
+    background:#253746;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     font-size: small;
     text-transform: uppercase;
-    height:70%;
 }
-.footer-text{
-    padding-top:3px;
-    padding-right:10px;
-    text-align: right;
-    position: relative;
+.footer-wrapper{
+    justify-content: right;
 }
