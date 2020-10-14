@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class=a-page>
+            <div class=nav-bar>
+                <div class=nav-belt>
+                    <div class=nav-left>
+                        <img src="images/logo/Abercrombie-and-Fitch.png">
+                    </div>
+                    <div class=nav-fill>
+                        <form action="/action_page.php">
+	               		
+	                        <input type="search" id="search-bar" name="search-bar" placeholder="Search...">
+	                        <button type="submit"><i class="fa fa-search"></i></button>
+
+                        </form>
+                    </div>
+                    <div class=nav-right >
+                        <div id="nav-cart-count-container">
+                            <form action="/action_page.php">
+                                <button class="view-cart" data-state="initial" type="button">
+                                    <span>Bag
+                                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </form>
+                        </div> 
+                    </div>
+                </div>
+                <div class=nav-main>
+                    <div class=nav-left>
+                        <div class=nav-link-wrapper>
+                            <a href="index.html">Home</a>
+                        </div>
+                    </div>
+                    <div class=nav-fill>
+                        <div class=nav-link-wrapper>
+                            <a href="about.html">About</a>
+                        </div>
+                    </div>
+                    <div class="nav-right active-nav-link">
+                        <div class=nav-link-wrapper>
+                            <a href="index2.html">Products</a>
+                        </div>
+                    </div>
+                    <div class=nav-fill>
+                        <div class=nav-link-wrapper>
+                            <a href="contact-us.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=headline-wrapper>
+                <div class="product-items-wrapper">
+                    <div class="product-item-wrapper image-blur">
+                        <div class="product-img-background" style="background-image:url(images/jacket.jpeg)"></div>
+                        <div class="img-text-wrapper">
+                            <a href="shoptop.html">Shop top</a>
+                        </div>
+                    </div>
+            
+                    <div class="product-item-wrapper image-blur">
+                        <div class="product-img-background" style="background-image:url(images/bottom.jpeg)"></div>
+                        <div class="img-text-wrapper">
+                            <a href="shopbottom.html">Shop bottom</a>
+                        </div>
+                    </div>
+                
+                    <div class="product-item-wrapper">
+                        <div class="product-img-background" style="background-image:url(images/hat.jpeg)"></div>
+                        <div class="img-text-wrapper">
+                            <a href="shopaccessories.html" >Shop accessories</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class=pageContent>
+                <div class=product-img-container>
+                    <img src="images/Mask+Collection+2.jpg" alt="Display Error">
+                </div>
+                <div class=product-info-container>
+                    <div class=product-name>
+                        <h3>Face Masks</h3>
+                        <h4>$16.99 CAD</h4>
+                        <h5>Details & Materials</h5>
+                    </div>
+                    <div class=product-descriptor>
+                        <p>Made from 100% cotton</p>
+                        <p>Comfortable elastic ear loops with a slot for filters</p>
+                        <p>Non-medical mask & washable</p>
+                        <p>Pack of 6</p>
+                    </div>
+                    <div class=product-size> 
+                        <button title="small" type="button">S</button>
+                        <button title="large" type="button">L</button>
+                    </div>
+                    <div class=product-atb-container>
+                        <div class=quantity-selection>
+                            <label>Qty</label>
+                            <select name="quantity" autocomplete="off" id="quantity" class=quantity-selection-dropdown>
+                                <option value="1"> 1</option>
+                                <option value="2"> 2</option>
+                                <option value="3"> 3</option>
+                                <option value="4"> 4</option>
+                                <option value="5"> 5</option>
+                            </select>
+                        </div>
+                        <button class="atb-button" data-state="initial" type="button">
+                            <span> Add to bag </span>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </button>
+                        <button class="atb-button" data-state="initial" type="button">
+                            <span> View bag</span>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-review">
+                <h5>Reviews and Rating</h5>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <div class="product-recommendation">
+                <div class="product-recommendation-header">
+                    <p>Similar Products</p>
+                </div>
+                <div class=product-recommendation-imgs-wrapper>
+                    <div class=product-recommendation-img-wrapper>
+                        <div class="product-recommendation-img" style="background-image:url(images/prod-rec-1.jpeg)"></div>
+                        <p class="product-recommendation-details">Female face masks</p>
+                    </div>
+                    <div class=product-recommendation-img-wrapper>
+                        <div class="product-recommendation-img" style="background-image:url(images/prod-rec-2.jpeg)"></div>
+                        <p class="product-recommendation-details">Male face masks</p>
+                    </div>
+                </div>
+            <div class=footer>
+                <p>&#169; 2020 Shehnaz I. and Thuy T. </p>
+            </div>
+        </div>
+    </body>
+</html>
